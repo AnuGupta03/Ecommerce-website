@@ -93,6 +93,12 @@
     cursor: pointer;
 }
 
+@media(max-width:2567px){
+    .cartitems-promobox button {
+        margin-left: 22px;
+    }
+}
+
 @media(max-width:1280px){
     .cartitems{
        margin: 6px 50px; 

@@ -7,7 +7,6 @@
 
 .loginsignup-container{
     width: 580px;
-    height: 510px;
     background: white;
     margin: auto;
     padding: 40px 60px;
@@ -20,7 +19,6 @@
   margin-top: 30px;  
 }
 .loginsignup-fields input{
-    height: 52px;
     width: 100%;
     padding-left: 20px;
     border: 1px solid #c9c9c9;
@@ -29,16 +27,15 @@
     font-size: 18px;
 }
 .loginsignup-container button{
-    width: 100%;
+    width: 350px;
     height: 40px;
     color: white;
     background: #ff4141;
-    margin-top: 14px;
+    margin-top: 30px;
     border: none;
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
-    margin-left: 25%;
 }
 
 .loginsignup-login{
@@ -60,6 +57,7 @@
     font-size: 18px;
     font-weight: 500;
 }
+
 @media(max-width:1280px){
     .loginsignup{
         padding-top: 50px;
@@ -79,9 +77,6 @@
     .loginsignup-fields input{
         height: 47px;
         width: 93%;
-    }
-    .loginsignup-container button{
-        width: 50%;
     }
     .loginsignup-login{
         font-size: 16px;
@@ -105,7 +100,6 @@
         height: 50px;
     }
     .loginsignup-container button{
-        height: 50px;
         font-size: 16px;
     }
 
