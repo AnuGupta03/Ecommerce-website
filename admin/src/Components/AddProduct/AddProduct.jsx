@@ -10,7 +10,7 @@ const AddProduct = () => {
     image:"",
     category:"",
     new_price:"",
-    old_price:""
+    old_price:"",
   });
 
   const imageHandler = (e) =>{
